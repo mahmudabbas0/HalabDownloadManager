@@ -1,0 +1,8 @@
+* text=auto
+*.png binary
+*.ico binary
+*.crx binary
+*.zip binary
+*.exe binary
+third-party/licenses/** -whitespace
+third-party/node/LICENSE.txt -whitespace

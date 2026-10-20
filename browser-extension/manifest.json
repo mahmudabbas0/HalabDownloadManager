@@ -1,0 +1,73 @@
+{
+  "manifest_version": 3,
+  "name": "Halab Download Manager",
+  "version": "1.0.3",
+  "author": "Mahmud Abbas",
+  "description": "Send downloads to Halab Download Manager and show available public video formats.",
+  "permissions": [
+    "nativeMessaging",
+    "downloads",
+    "storage",
+    "contextMenus",
+    "declarativeNetRequestWithHostAccess",
+    "alarms",
+    "downloads.ui"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "links.js"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0t9Y4+1Fba14JoEu8LArJO7P7ND0z2UFh7WmKkrqWx0Hr0jiw8Akl0ARJuVUfQhIV18BXd+0c7AZ4hrcCnZ3Po8wU/sSMB+ZZkZpbIbKBrEBVk14WZuaI0O5C7gob+UkCjQHylPdbgGSQvCMs3ylT8HjqitvwEU8aHyhQ7kgXwq+hjCZlKv1W88QLnxKJY1LxFiYQVg80LC523ZUu44uJXDKzrzTeKpT3/DENuvd0A8i6vWJ54Lnge4LKTujrgFQpql9q/BEeSFdvdHFrA/CN8FAGdbL6l/RteV+S/GV7WExCAXBjE3YgsE0MttJqe4F8W9Rlp60h+ys6UKWWrM3YwIDAQAB",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "minimum_chrome_version": "129",
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "handoff.html",
+        "handoff.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ]
+    }
+  ]
+}

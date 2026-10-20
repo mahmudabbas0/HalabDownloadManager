@@ -1,0 +1,16 @@
+Copyright (c) 2026 Mahmud Abbas. All rights reserved.
+
+This copyright applies to the original Halab Download Manager application,
+browser-connector code, artwork, and installer scripts authored for this project.
+You may install and use the supplied application. Other copying, modification,
+or redistribution of the original Halab code requires the owner's permission.
+
+The included source is supplied for inspection and rebuilding the application,
+including relinking it with compatible modified Qt libraries. Nothing here
+restricts rights granted by the licenses of third-party components, including
+reverse engineering needed to debug modifications to LGPL-covered libraries.
+
+Qt, MinGW, Node.js, yt-dlp, FFmpeg and their contributors retain their own
+copyrights and licenses. They are not the property of Mahmud Abbas. See
+App/licenses and THIRD-PARTY-NOTICES.md. There is no affiliation with IDM,
+Google, Microsoft, YouTube, Qt, or the authors of the third-party tools.

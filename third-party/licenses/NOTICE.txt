@@ -1,0 +1,6 @@
+Qt 6.10.1 libraries are dynamically linked. Full Halab sources and CMake build files are in ../../Source relative to this folder. Compatible Qt DLLs may be replaced.
+Qt sources: https://download.qt.io/archive/qt/6.10/6.10.1/single/
+Licensing: https://doc.qt.io/qt-6.10/licensing.html
+Qt copyright: The Qt Company Ltd. and other contributors.
+MinGW/GCC runtime license notices are included in the subfolders.
+Node.js license and its third-party notices are in ../tools/Node-LICENSE.txt.
