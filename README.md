@@ -6,6 +6,8 @@ A Windows desktop download manager built with **C++17 and Qt 6**, with a Chromiu
 
 Copyright © 2026 **Mahmud Abbas**. All rights reserved.
 
+![Halab Download Manager — About dialog](docs/images/halab-about.png)
+
 ## Features
 
 - Segmented HTTP/HTTPS downloads, pause/resume, durable partial files, queues and scheduling.
