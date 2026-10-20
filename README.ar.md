@@ -6,7 +6,7 @@
 
 حقوق الملكية © 2026 **Mahmud Abbas**. جميع الحقوق محفوظة.
 
-![نافذة حول Halab Download Manager](docs/images/halab-about.png)
+![واجهة Halab Download Manager الرئيسية](docs/images/halab-main.png)
 
 ## المميزات
 
